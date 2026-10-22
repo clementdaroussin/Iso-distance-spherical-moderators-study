@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material id="1" name="light_water">
+    <density value="1.0" units="g/cm3"/>
+    <nuclide name="H1" ao="2.0"/>
+    <nuclide name="O16" ao="1.0"/>
+    <sab name="c_H_in_H2O"/>
+  </material>
+  <material id="2" name="heavy_water">
+    <density value="1.1" units="g/cm3"/>
+    <nuclide name="H2" ao="2.0"/>
+    <nuclide name="O16" ao="1.0"/>
+    <sab name="c_D_in_D2O"/>
+  </material>
+  <material id="3" name="graphite">
+    <density value="1.7" units="g/cm3"/>
+    <nuclide name="C0" ao="1.0"/>
+    <sab name="c_Graphite"/>
+  </material>
+</materials>
